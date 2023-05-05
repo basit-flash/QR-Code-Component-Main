@@ -1,75 +1,74 @@
-*, *::before,*::after {
-    box-sizing: border-box;
-    font-size: 62.5%;
-    /* border: 2px black solid; */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-    img {
-        max-width: 100%;
-    }
+img {
+  max-width: 100%;
+}
 
 body {
-    padding: 0;
-    margin: 0;
-    font-size: 1.6rem;
-    background: hsl(212, 45%, 89%);
-    font-family: 'Outfit', sans-serif;
-    text-align: center;
-
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  background: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
 }
 
 .container {
-    width: 80%;
-    max-width: 720px;
-    /* max-height: 50%; */
-    margin: 8.4rem auto;
+  width: 80%;
+  max-width: 720px;
+  /* max-height: 50%; */
+  margin: 8.4rem auto;
 }
 
 .card {
-    background-color: #ffffff;
-    padding: 3em;
-    border-radius: 15px;
-    height: 80%;
-    /* min-height: 90%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  background-color: #ffffff;
+  padding: 3em;
+  border-radius: 15px;
+  height: 80%;
+  /* min-height: 90%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card__img--modified {
-    border-radius: 12px;
-    width: 100%;
-    /* height: 80%; */
-
+  border-radius: 12px;
+  width: 100%;
+  /* height: 80%; */
 }
 
 .card-about {
-    font-size: 1.6rem;
-    height: 30%;
+  font-size: 1.6rem;
+  height: 30%;
 }
 
 .title {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .description {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 @media (min-width: 550px) {
-    .container {
-        width: 30%;
-    }
+  .container {
+    width: 30%;
+  }
 }
 
 @media (min-width: 550px) {
-    .container {
-        width: 35%;
-    }
+  .container {
+    width: 35%;
+  }
 }
 
 @media (min-width: 900px) {
-    .container {
-        width: 21.11%;
-    }
+  .container {
+    width: 21.11%;
+  }
 }
