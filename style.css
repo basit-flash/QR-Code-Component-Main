@@ -45,7 +45,7 @@ main {
 
 .card {
   background-color: var(--clr-white);
-  padding: 1em;
+  padding: 1.1em;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -58,6 +58,7 @@ main {
 
 .card-about {
   padding-inline: 1em;
+  padding-bottom: 0.7em;
 }
 
 .title {
