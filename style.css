@@ -57,7 +57,7 @@ main {
 }
 
 .card-about {
-  padding: 1.1em;
+  padding-inline: 1em;
 }
 
 .title {
