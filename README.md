@@ -42,5 +42,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Frontend Mentor - [@basit-flash](https://www.frontendmentor.io/profile/basit-flash)
 
 ## Acknowledgments
-
+- [Basit Korai](https://basitkorai.netlify.app) - a self-taught Full Stack Developer.
 - Thank you [Kevin](https://www.kevinpowell.co) for teaching me CSS
